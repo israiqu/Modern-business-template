@@ -59,8 +59,7 @@ p {
     height: 5.1rem;
     justify-content: center;
     align-items: center;
-    padding: 0px 420px ;
-    margin: 0px;
+    padding: 0px 400px ;
 }
 
 .header__select-target {
@@ -78,32 +77,41 @@ p {
 .header__select-target a {
     font-weight: 600;
     font-size: 1.5rem;
-    color: #777;
     text-decoration: none;
+    padding: 0px 1rem;
 }
 
 .header__select-target a:link {
     padding: 0px 1rem;
 }
 
-.header__select-target a:visited {
-    padding: 0px 1rem;
+.header__select-target a:visited, a:active {
+    /* padding: 0px 1rem; */
     background-color: #f9c71c;
 }
 
 .header__select-target a:hover {
-    /* padding: 100% 1rem; */
     border-style: solid;
     border-color: #f9c71c;
-    border-top-width: 1.3rem;
+    border-top-width: 1.9rem;
     border-bottom-width: 1.3rem;
     background-color: #f9c71c;
-    margin: 0px;
+    color: white;
 }
 
-.header__select-target a:active {
-    padding: 0px 1rem;
+.header__select-target-residential {
+    color: white;
+    border-style: solid;
+    border-color: #f9c71c;
+    border-top-width: 1.9rem;
+    border-bottom-width: 1.3rem;
+    border-left-width: 1rem;
+    border-right-width: 1rem;
     background-color: #f9c71c;
+}
+
+.header__select-target-business {
+    color: #777;
 }
 
 .header__questions {
