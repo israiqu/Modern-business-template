@@ -49,9 +49,6 @@ p {
 
 /* _________________HEADER_________________ */
 
-.main {
-    padding: 0rem 400px;
-}
 
 .header {
     display: flex;
@@ -65,7 +62,7 @@ p {
 .header__select-target {
     flex: 1 1 40%;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align:start;
     align-items: center;
 }
@@ -117,7 +114,7 @@ p {
 .header__questions {
     flex: 1 1 60%;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: white;
     text-align: end;
 }
@@ -134,6 +131,111 @@ p {
 
 
 .hero {
-
+    display: flex;
+    height: 689px;
+    background-image: url(/img/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
 }
 
+.hero__menu {
+    display: flex;
+    padding: 15px 400px;
+    justify-content: center;
+    align-items:flex-start;
+    flex: 1 1 100%;
+}
+
+
+.hero__logo {
+    flex: 1 1 15%;
+    margin: 0px;
+}
+
+.hero_nav {
+    flex: 1 1 70%;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 18px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.hero_button {
+    flex: 1 1 15%;
+    padding: 18px 0px;
+}
+
+.hero_button a {
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-style: solid;
+    border-color: white;
+    border-width: .2rem;
+    background-color: transparent;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero_button :hover {
+    background-color: white;
+    color: #7CBBCC;
+}
+
+.hero li {
+    display: inline;
+    padding: 0px 25px;
+}
+
+.hero__title {
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: start;
+    margin-top: auto;
+    padding-left: 400px;
+    flex-wrap: wrap;
+}
+
+.hero__title p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 2;
+}
+
+.hero_button2 {
+    flex: 1 1 100%;
+    padding: 28px 0px 190px 0px;
+}
+
+.hero_button2 a {
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-style: solid;
+    border-color: white;
+    border-width: .2rem;
+    background-color: transparent;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.hero_button2 :hover {
+    background-color: white;
+    color: #7CBBCC;
+}
+
+/*_________About Section__________*/
+
+.about {
+    height: 1220px;
+}
+
+/* .main {
+    padding: 0rem 400px;
+} */
